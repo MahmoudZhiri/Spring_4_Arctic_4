@@ -6,6 +6,18 @@ import jakarta.persistence.*;
 
 import java.time.LocalDate;
 import java.util.Set;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode
+@FieldDefaults(level = AccessLevel.PRIVATE)
+@Builder
+
 
 
 @Entity

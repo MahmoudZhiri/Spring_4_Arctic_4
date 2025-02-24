@@ -8,7 +8,6 @@ import tn.esprit.arctic.demo2.repository.ClientRepo;
 
 import java.util.List;
 @Service
-
 @AllArgsConstructor
 public class ClientService implements IClientService {
     ClientRepo clientRepository;

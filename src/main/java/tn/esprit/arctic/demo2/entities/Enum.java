@@ -1,5 +1,6 @@
 package tn.esprit.arctic.demo2.entities;
 
+
 public class Enum {
     public enum TypeMenu {
         PETIT_DEJEUNER,

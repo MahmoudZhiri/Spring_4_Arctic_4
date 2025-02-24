@@ -9,6 +9,7 @@ import tn.esprit.arctic.demo2.repository.ChefCuisinierRepo;
 import java.util.List;
 @Service
 @AllArgsConstructor
+
 public class ChefCuisinierService implements IChefCuisinerService {
 
     ChefCuisinierRepo chefCuisinierRepository;

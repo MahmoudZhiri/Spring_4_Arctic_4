@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import java.util.Set;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
@@ -15,6 +16,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
 @Entity
+@Component
 public class ChefCuisinier {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

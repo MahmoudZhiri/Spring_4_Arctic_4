@@ -11,6 +11,7 @@ import java.util.Date;
 import java.util.Set;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
@@ -21,6 +22,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
 @Entity
+@Component
 public class Client  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

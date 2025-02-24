@@ -1,11 +1,15 @@
 package tn.esprit.arctic.demo2.service;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.arctic.demo2.entities.ChefCuisinier;
+import tn.esprit.arctic.demo2.serviceImplementations.IChefCuisinerService;
 import tn.esprit.arctic.demo2.repository.ChefCuisinierRepo;
 
 import java.util.List;
-
-public class ChefCuisinierService implements IChefCuisinerService{
+@Service
+@AllArgsConstructor
+public class ChefCuisinierService implements IChefCuisinerService {
 
     ChefCuisinierRepo chefCuisinierRepository;
 

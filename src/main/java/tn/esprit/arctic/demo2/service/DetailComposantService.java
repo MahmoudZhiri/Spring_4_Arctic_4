@@ -1,10 +1,14 @@
 package tn.esprit.arctic.demo2.service;
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.arctic.demo2.entities.DetailComposant;
+import tn.esprit.arctic.demo2.serviceImplementations.IDetailComposantService;
 import tn.esprit.arctic.demo2.repository.DetailComposantRepo;
 
 import java.util.List;
-
-public class DetailComposantService implements IDetailComposantService{
+@Service
+@AllArgsConstructor
+public class DetailComposantService implements IDetailComposantService {
     DetailComposantRepo detailComposantRepository;
 
     @Override

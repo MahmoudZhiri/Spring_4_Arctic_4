@@ -1,9 +1,14 @@
 package tn.esprit.arctic.demo2.service;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.arctic.demo2.entities.Menu;
+import tn.esprit.arctic.demo2.serviceImplementations.IMenuService;
 import tn.esprit.arctic.demo2.repository.MenuRepo;
 
 import java.util.List;
+@Service
+@AllArgsConstructor
 
 public class MenuService implements IMenuService {
     private MenuRepo menuRepo;

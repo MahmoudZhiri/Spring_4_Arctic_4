@@ -6,6 +6,7 @@ import java.util.Set;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
@@ -15,6 +16,7 @@ import lombok.experimental.FieldDefaults;
 @EqualsAndHashCode
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
+@Component
 @Entity
 public class Menu {
     @Id

@@ -1,4 +1,4 @@
-package tn.esprit.arctic.demo2.service;
+package tn.esprit.arctic.demo2.serviceImplementations;
 
 import tn.esprit.arctic.demo2.entities.Client;
 

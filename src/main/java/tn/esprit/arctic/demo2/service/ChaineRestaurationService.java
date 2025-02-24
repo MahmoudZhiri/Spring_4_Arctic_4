@@ -1,10 +1,14 @@
 package tn.esprit.arctic.demo2.service;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.arctic.demo2.entities.ChaineRestauration;
-import tn.esprit.arctic.demo2.service.IChaineRestaurationService;
+import tn.esprit.arctic.demo2.serviceImplementations.IChaineRestaurationService;
 import tn.esprit.arctic.demo2.repository.ChaineRestaurationRepo;
 
 import java.util.List;
+@Service
+@AllArgsConstructor
 
 public class ChaineRestaurationService implements IChaineRestaurationService {
     ChaineRestaurationRepo chaineRestaurationRepository;

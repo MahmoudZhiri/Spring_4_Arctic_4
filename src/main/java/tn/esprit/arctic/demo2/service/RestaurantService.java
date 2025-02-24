@@ -1,10 +1,14 @@
 package tn.esprit.arctic.demo2.service;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.arctic.demo2.entities.Restaurant;
+import tn.esprit.arctic.demo2.serviceImplementations.IRestaurantService;
 import tn.esprit.arctic.demo2.repository.RestaurantRepo;
 
 import java.util.List;
-
+@Service
+@AllArgsConstructor
 public class RestaurantService implements IRestaurantService {
     RestaurantRepo restaurantRepository;
 

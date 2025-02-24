@@ -1,10 +1,14 @@
 package tn.esprit.arctic.demo2.service;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.arctic.demo2.entities.Composant;
+import tn.esprit.arctic.demo2.serviceImplementations.IComposantService;
 import tn.esprit.arctic.demo2.repository.ComposantRepo;
 
 import java.util.List;
-
+@Service
+@AllArgsConstructor
 public class ComposantService implements IComposantService {
     ComposantRepo composantRepository;
 
